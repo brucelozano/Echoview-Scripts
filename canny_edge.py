@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 
 """
-    Applies Canny edge detection to Operand 0
+    Applies Canny edge detection to Operand 0 (No contours in this version)
     
     Operands
     ----------------------------------------------------------------------------------------
