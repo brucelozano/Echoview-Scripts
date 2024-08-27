@@ -7,7 +7,7 @@ import echoview as ev
 import numpy as np
 
 """
-    Calculates mean depth of DSLs to Operand 0 and visualizes them in meters on the echogram
+    Calculates mean depth of the DSL from Operand 0 and visualizes them from the top to the mean depth
     
     Operands
     ----------------------------------------------------------------------------------------

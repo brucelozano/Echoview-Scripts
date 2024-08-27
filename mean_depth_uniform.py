@@ -1,6 +1,19 @@
+"""
+    @author: bruce
+"""
+
 from typing import List
 import echoview as ev
 import numpy as np
+
+"""
+    Calculates mean depth of the DSL from Operand 0 and visualizes them (uniform visual)
+    
+    Operands
+    ----------------------------------------------------------------------------------------
+    
+    * Operand 0 - Code: Canny edge with feature detection
+"""
 
 class Operator(ev.OperatorBase):
     def __init__(self):
